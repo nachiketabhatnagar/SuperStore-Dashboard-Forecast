@@ -10,118 +10,134 @@ The dashboard is designed to represent a real-world business intelligence scenar
 
 🛠️ Tools & Technologies
 
-Power BI Desktop
+* Power BI Desktop
 
-DAX (Data Analysis Expressions)
+* DAX (Data Analysis Expressions)
 
-Power Query
+* Power Query
 
-CSV Dataset
+* CSV Dataset
 
 📂 Dataset
 
-Source: Super Store Sales Dataset
+* Source: Super Store Sales Dataset
 
-Key Fields Used:
+* Key Fields Used:
 
-Order Date, Ship Date
+* Order Date, Ship Date
 
-Sales, Profit, Quantity
+* Sales, Profit, Quantity
 
-Category, Sub-Category
+* Category, Sub-Category
 
-Segment, Region, State
+* Segment, Region, State
 
-Ship Mode, Payment Mode
+* Ship Mode, Payment Mode
 
 📈 Dashboard Features
 🔹 Key Performance Indicators (KPIs)
 
-Total Sales
+1. Total Sales
 
-Total Quantity Sold
+2. Total Quantity Sold
 
-Units Sold
+3. Units Sold
 
-Avg Del. Days (Average Delivery Days)
+4. Avg Del. Days (Average Delivery Days)
 
 🔹 Sales & Profit Analysis
 
-Sales distribution by Category and Sub-Category
+1. Sales distribution by Category and Sub-Category
 
-Sales contribution by Customer Segment
+2. Sales contribution by Customer Segment
 
-Sales by Ship Mode
+3. Sales by Ship Mode
 
-Sales by Payment Mode
+4. Sales by Payment Mode
 
 🔹 Time-Based Analysis
 
-Monthly Sales by Year
+1. Monthly Sales by Year
 
-Monthly Profit by Year
+2. Monthly Profit by Year
 
-Trend analysis using line and area charts for year-over-year comparison
+3. Trend analysis using line and area charts for year-over-year comparison
 
 🔹 Forecasting
 
-Implemented Power BI Analytics Forecasting on sales trends
+1. Implemented Power BI Analytics Forecasting on sales trends
 
 Includes:
 
-Forecasted sales values
+1. Forecasted sales values
 
-Upper and lower confidence bounds (95%)
+2. Upper and lower confidence bounds (95%)
 
-Forecasting is applied at the visual level to project short-term future trends
+3. Forecasting is applied at the visual level to project short-term future trends
 
 ⚠️ Note: Power BI’s built-in forecasting is a visual-level feature and does not generate physical forecast rows in the data model.
 
 🔹 Geographical Insights
 
-Sales and Profit by State using map visualization
+1. Sales and Profit by State using map visualization
 
-Interactive tooltips for region-level performance analysis
+2. Interactive tooltips for region-level performance analysis
 
 🔹 Interactivity
 
-Region-based slicers:
+1. Region-based slicers:
 
-Central | East | South | West
+* Central | East | South | West
 
-Cross-filtering across all visuals
+2. Cross-filtering across all visuals
 
-Dynamic tooltips for detailed metric exploration
+3. Dynamic tooltips for detailed metric exploration
 
 📄 Dashboard Preview
 
 A PDF version of the complete Power BI dashboard is included in the repository for easy viewing without requiring Power BI Desktop.
 
-This allows recruiters and reviewers to quickly understand the dashboard layout, KPIs, and insights.
-
 🧠 What I Learned
 
-Designing business-oriented KPIs
+* Designing business-oriented KPIs
 
-Cleaning and transforming data using Power Query
+* Cleaning and transforming data using Power Query
 
-Writing DAX measures for aggregation and trend analysis
+* Writing DAX measures for aggregation and trend analysis
 
-Implementing time-series forecasting in Power BI
+* Implementing time-series forecasting in Power BI
 
-Improving dashboard usability with slicers and tooltips
+* Improving dashboard usability with slicers and tooltips
 
-Understanding the difference between visual forecasting and DAX-based forecasting
+* Understanding the difference between visual forecasting and DAX-based forecasting
 
 🚀 Use Cases
 
-Sales performance monitoring
+* Sales performance monitoring
 
-Business trend analysis
+* Business trend analysis
 
-Short-term demand forecasting
+* Short-term demand forecasting
 
-Executive-level reporting dashboards
+* Executive-level reporting dashboards
+
+🔍 Key Insights
+
+* Consumer segment contributes the largest share of total sales, accounting for nearly half of overall revenue, indicating strong B2C demand.
+
+* Office Supplies generate the highest sales among categories, followed closely by Technology, showing consistent demand across essential and high-value products.
+
+* Standard Class shipping is the most frequently used ship mode, contributing the majority of sales, while faster shipping options have lower adoption.
+
+* West and East regions together contribute over half of total sales, highlighting these regions as key revenue drivers.
+
+* Sales peak during the last quarter (October–December), indicating strong seasonality and increased year-end demand.
+
+* Monthly profit trends generally follow sales patterns, with noticeable fluctuations suggesting the impact of discounts and operational costs.
+
+* Sales forecasting indicates a short-term upward trend, with confidence intervals providing a reasonable range for expected future performance.
+
+* Average delivery time remains stable, suggesting consistent logistics performance across regions.
 
 ✅ Final Notes
 
